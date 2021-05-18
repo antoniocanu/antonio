@@ -1,3 +1,26 @@
+@font-face {
+    font-family: "Manrope ExtraBold";
+    src: url("/fonts/Manrope-ExtraBold.woff2") format("woff2");
+    src: url("/fonts/Manrope-ExtraBold.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "ManropeMedium";
+    src: url("/fonts/Manrope-Medium.woff2") format("woff2");
+    src: url("/fonts/Manrope-Medium.woff") format("woff");
+  }
+
+body {
+    background-color: lightgrey;
+    padding: 10%;
+}
+
 h1 {
-    background-color: red;
+    font-family: 'Manrope ExtraBold', Courier, monospace;
+    font-size: 8rem;
+    line-height: 8rem;
+}
+
+h2 {
+    font-family: 'ManropeMedium';
 }
